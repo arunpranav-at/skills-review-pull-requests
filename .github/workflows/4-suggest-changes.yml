@@ -60,6 +60,6 @@ jobs:
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 4
+          from_step: 3
           to_step: 6
           branch_name: update-game
